@@ -30,7 +30,7 @@ $(document).ready(() => {
           yAxis: {
             min: 0,
             title: {
-                text: 'Total Amount ($)',
+              text: 'Total Amount ($)',
             },
           },
           legend: {
