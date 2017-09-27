@@ -12,10 +12,10 @@ $(document).ready(() => {
             type: 'column',
           },
           title: {
-            text: '',
+            text: 'Bouqet.ai Exercice',
           },
           subtitle: {
-            text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>',
+            text: 'Contract amounts in Marin County by department',
           },
           xAxis: {
             type: 'category',
@@ -30,7 +30,7 @@ $(document).ready(() => {
           yAxis: {
             min: 0,
             title: {
-              text: 'Amount',
+                text: 'Total Amount ($)',
             },
           },
           legend: {
