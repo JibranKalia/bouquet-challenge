@@ -23,9 +23,10 @@ app.post('/', (req, res) => {
 */
 
 app.get('/data', (req, res) => {
+  const time = req.query.time;
   boutique.callApi()
-  .then((out) => boutique.dataCleanup(out))
-  .then(out => res.send(out));
+    .then(out => boutique.dataCleanup(out, time))
+    .then(out => res.send(out));
 });
 
 app.listen(app.get('port'), () => {
