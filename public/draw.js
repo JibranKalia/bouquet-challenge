@@ -23,14 +23,14 @@ $.getJSON('/data', (stuff) => {
     yAxis: {
       min: 0,
       title: {
-        text: 'Population (millions)',
+        text: 'Amount',
       },
     },
     legend: {
       enabled: false,
     },
     tooltip: {
-      pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>',
+      pointFormat: ' <b>{point.y}</b>',
     },
     series: [{
       name: 'Population',
