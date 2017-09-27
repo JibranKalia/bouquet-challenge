@@ -1,3 +1,4 @@
+  /*
 $.ajax('/data', {
   type: 'GET',
   url: '/data',
@@ -9,7 +10,7 @@ $.ajax('/data', {
         type: 'column',
       },
       title: {
-        text: 'Bouqet.Ai',
+        text: '',
       },
       subtitle: {
         text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>',
@@ -56,12 +57,10 @@ $.ajax('/data', {
   },
 });
 
-/*
 
 
 $.ajax('/data', 1483228800000, (stuff) => {
-  console.log(stuff);
-  Highcharts.chart('container', {
+  console.log(stuff); Highcharts.chart('container', {
     chart: {
       type: 'column',
     },

@@ -4,5 +4,9 @@
     "no-param-reassign": 0,
     "no-mixed-operators": 0,
     "no-console": 0
+  },
+  "env": {
+    "browser": true,
+    "jquery": true
   }
 }
