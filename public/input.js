@@ -12,7 +12,7 @@ $(document).ready(() => {
             type: 'column',
           },
           title: {
-            text: 'Bouqet.ai Exercice',
+            text: 'Bouqet.ai Exercise',
           },
           subtitle: {
             text: 'Contract amounts in Marin County by department',
@@ -37,7 +37,7 @@ $(document).ready(() => {
             enabled: false,
           },
           tooltip: {
-            pointFormat: ' <b>{point.y}</b>',
+            pointFormat: ' <b>{point.y:,.0f}</b>',
           },
           series: [{
             name: 'Population',
@@ -47,7 +47,7 @@ $(document).ready(() => {
               rotation: -90,
               color: '#FFFFFF',
               align: 'right',
-              format: '{point.y}',
+              format: '{point.y:,.0f}',
               y: 10, // 10 pixels down from the top
               style: {
                 fontSize: '13px',
